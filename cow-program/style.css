@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+div {
+    padding: 10px;
+    margin: 10px;
+}
+* {
+    font-family: poppins;
+    text-align: center;
+}
+
+button{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+input{
+    padding: 5px;
+    font-size: 15px;
+    border: none;
+    margin-bottom: 10px;
+}

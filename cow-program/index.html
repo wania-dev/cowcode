@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cow code program</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon and logo (w).jpeg" type="image/x-icon">
+</head>
+<body>
+    
+    <div class="recordYied">
+        <input type="text" id="id-input" placeholder="Record ID" required>
+        <input type="text" id="yield-input" placeholder="Record Yeild" required> 
+        <button onclick="takeInput()">Record Yeild</button>
+    </div>
+
+    <div class="displayYeild">
+        <button onclick="displayBestYield()">Get Cow with Best Yield</button>
+        <div class="best-yield-output"></div>
+    </div>
+
+    <div class="displayLowYielder">
+        <button onclick="displayLowYeilders()">IDs of cows with low yeild for 4 or more days</button>
+        <div id="low-yielders-output"></div>
+    </div>
+
+    <div class="weeklyTotal">
+        <button onclick="displayWeeklyTotal()">Weekly Total of all cows</button>
+        <div id="weekly-totals-output"></div>
+    </div>
+
+</body>
+</html>
